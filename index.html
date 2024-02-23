@@ -11,36 +11,36 @@
     <div class="navbar">
         <div class="amazon-logo border"></div>
         <div class="delivery-location border">
-            <div>Deliver to</div> 
-            <div>
+            <div class="del-to">Deliver to</div> 
+            <div class="del-loc">
                 <i class="fa-solid fa-location-dot"></i>
                 <p>India</p>
             </div>
         </div>
         <div class="search-bar">
-            <button class="all">All</button>
+            <button class="all">All <i class="fa-solid fa-caret-down drop-down-arrow"></i></button>
             <input type="text" placeholder="Search Amazon">
             <button class="search-icon">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </button>
         </div>
-        <div class="location border">EN</div>
+        <div class="location border"><i class="fa-solid fa-flag-usa"></i>EN<i class="fa-solid fa-caret-down drop-down-arrow"></i></div>
         <div class="accounts border">
             <p>Hello, sign in</p>
-            <p>Accounts & Lists</p>
+            <p class="p2">Accounts & Lists <i class="fa-solid fa-caret-down drop-down-arrow"></i></p>
         </div>
-        <div class="returns-and-oders border">
+        <div class="returns-and-orders border">
             <p>Returns</p>
-            <p>& Orders</p>
+            <p class="p2">& Orders</p>
         </div>
         <div class="cart border">
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping"></i> Cart
         </div>
     </div>
     <!-- Secondary navbar -->
     <div class="toolbar">
         <ul>
-            <li class="border">All</li>
+            <li class="border" id="all"><i class="fa-solid fa-grip-lines"></i>All</li>
             <li class="border">Today's Deals</li>
             <li class="border">Customer Service</li>
             <li class="border">Registry</li>
@@ -54,7 +54,7 @@
             <div>
                 <p class="item-name">Clothing</p>
                 <img src="./Image/box1_image.jpg" alt="img">
-                <a href="#">See More</a>
+                <a href="#">Shop now</a>
             </div>
             <div>
                 <p class="item-name">Bathroom Essentials</p>
@@ -69,28 +69,87 @@
             <div>
                 <p class="item-name">Smartphones</p>
                 <img src="./Image/box4_image.jpg" alt="img">
-                <a href="#">See More</a>
+                <a href="#">See more from Smartphones</a>
             </div>
             <div>
-                <p class="item-name"></p>
+                <p class="item-name">Makeup</p>
                 <img src="./Image/box5_image.jpg" alt="img">
-                <a href="#">See More</a>
+                <a href="#">Shop now</a>
             </div>
             <div>
-                <p class="item-name">Item-name</p>
+                <p class="item-name">Pet Accessories</p>
                 <img src="./Image/box6_image.jpg" alt="img">
-                <a href="#">See More</a>
+                <a href="#">See more</a>
             </div>
             <div>
-                <p class="item-name">Item-name</p>
+                <p class="item-name">Toys under &#x24;10</p>
                 <img src="./Image/box7_image.jpg" alt="img">
-                <a href="#">See More</a>
+                <a href="#">Shop now</a>
             </div>
             <div>
-                <p class="item-name">Item-name</p>
+                <p class="item-name">Trending</p>
                 <img src="./Image/box8_image.jpg" alt="img">
-                <a href="#">See More</a>
+                <a href="#">See all details</a>
             </div>
         </div>
+    </div>
+    <!-- Footer Section -->
+    <footer>
+        <div class="sign-in-footer">
+            <div class="hr"></div>
+            <p class="p1">See personalised recommendations</p>
+            <button>Sign in</button>
+            <p class="p2">New Customer? <a href="#">Start Here</a></p>
+            <div class="hr"></div>
+        </div>
+        <div class="link-to-top">Back to top</div>
+        <div class="other-services">
+            <div>
+                <p>Get to Know Us</p>
+                <ul>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">About Amazon</a></li>
+                    <li><a href="#">Investor Relations</a></li>
+                    <li><a href="#">Amazon Devices</a></li>
+                    <li><a href="#">Amazon Science</a></li>
+                </ul>
+            </div>
+            <div>
+                <p>Make Money with Us</p>
+                <ul>
+                    <li><a href="#">Sell products on Amazon</a></li>
+                    <li><a href="#">Sell on Amazon Business</a></li>
+                    <li><a href="#">Sell apps on Amazon</a></li>
+                    <li><a href="#">Become and Affiliate</a></li>
+                    <li><a href="#">Advertise Your Products</a></li>
+                    <li><a href="#">Self-Publish with Us</a></li>
+                    <li><a href="#">Host and Amazon Hub</a></li>
+                </ul>
+            </div>
+            <div>
+                <p>Amazon Payment Products</p>
+                <ul>
+                    <li><a href="#">Amazon Business Card</a></li>
+                    <li><a href="#">Shop with Point</a></li>
+                    <li><a href="#">Reload Your Balance</a></li>
+                    <li><a href="#">Amazon Currency Converter</a></li>
+                </ul>
+            </div>
+            <div>
+                <p>Let Us Help You</p>
+                <ul>
+                    <li><a href="#">Amazon and COVID-19</a></li>
+                    <li><a href="#">Your Account</a></li>
+                    <li><a href="#">Your Orders</a></li>
+                    <li><a href="#">Shopping Rates & Policies</a></li>
+                    <li><a href="#">Returns and Replacements</a></li>
+                    <li><a href="#">Manage Your Content and Devices</a></li>
+                    <li><a href="#">Amazon Assistant</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
