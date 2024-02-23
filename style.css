@@ -1,0 +1,164 @@
+:root{
+  --toolbar1: #131921;
+  --toolbar2: #232F3E;
+  --search-icon: #FEBD69;
+  --search-icon-active: #F3A847;
+  --main-background: #E3E6E6;
+  --all-button: #E6E6E6;
+  --all-button-active: #D4D4D4;
+  --font: 'Roboto', sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--main-background);
+  font-family: var(--font);
+}
+
+.navbar{
+  height: 60px;
+  width: 100vw;
+  background-color: var(--toolbar1);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  font-size: 0.9rem;
+}
+
+.amazon-logo{
+  height: 50px;
+  width: 100px;
+  background-image: url("./Image/amazon_logo.png");
+  background-size: cover;
+}
+
+.search-bar{
+  display: flex;
+  align-items: center;
+  height: 80%;
+  min-width:300px;
+  width: 70%;
+} 
+
+.all{
+  background-color: var(--all-button);
+  color: #424242 ;
+  height: 100%;
+  width: 60px;
+  display: grid;
+  place-content: center;
+  border: none;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.search-bar input{
+  height: 100%;
+  width: 100%;
+  border: none;
+  padding-left: 15px;
+  font-size: 1.1rem;
+}
+
+.search-icon{
+  height: 100%;
+  width: 70px;
+  background-color: var(--search-icon);
+  color: 424242;
+  display: grid;
+  place-content: center;
+  font-size: 1.4rem;
+  border: none;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.toolbar{
+  background-color: var(--toolbar2);
+  color: white;
+  padding: 0 30px;
+}
+
+.toolbar ul{
+  height: 39px;
+  display: flex;
+  justify-content: space-between ;
+  width: 35%;
+  font-size: 0.9rem;
+  list-style: none;
+}
+
+.toolbar ul li{
+  display: grid;
+  place-content: center;
+  height: 95%;
+}
+
+.border{
+  border: 1px transparent solid;
+}
+
+.border:hover{
+  border: white 1px solid;
+  border-radius: 4px;
+}
+
+/* Main Body */
+.main-body{
+  width: 100%;
+  background-image: url("./Image/hero_image.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;   
+}
+
+.main-body div{
+  padding: 18% 7% 0;
+  width: 100vw;
+  display : grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
+}
+
+
+.main-body div div{
+  height: 450px;
+  width: auto;
+  min-width: 300px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 15px;
+  padding: 20px 20px;
+}
+
+.main-body div div img{
+  height: 100%;
+  object-fit: cover;
+}
+
+.main-body div div p{
+  font-size: 1.4rem;
+  font-weight: 650;
+}
+
+.main-body div div a{
+  font-size: 0.9rem;
+  color: #005cd5;
+  
+}
+
+
+
+
+
+
